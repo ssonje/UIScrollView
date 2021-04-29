@@ -45,8 +45,8 @@ class ViewController: UIViewController {
 
         // as you can see we cannot find the label 2
         // also the scroll view is not scrollable
-        // to solve this issue we simply neet to add the below code
-        // scrollView.contentSize = CGSize(width: view.frame.size.width, height: 1500)
+        // to solve this issue we simply need to add the below code
+        scrollView.contentSize = CGSize(width: view.frame.size.width, height: 1500)
     }
 }
 
